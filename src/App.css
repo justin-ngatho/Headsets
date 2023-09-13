@@ -1,38 +1,187 @@
-.App {
-  text-align: center;
+*{
+  font-family: montserrat;
+}
+body{
+  background: #f1fbff;
+  margin: 0rem 2rem;
+}
+.section-padding{
+  padding: 10px 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* navbar */
+.navbar-nav a{
+  
+  font-size: 20px;
+  font-weight: 500px;
+  color:#5D8AA8;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.navbar-light .navbar-brand{
+  color:#7DF9FF;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+  color: #000;
+}
+.navbar-light .navbar-link .navbar-nav{
+  color: #7DF9FF;
+}
+@media only screen and (max-width:767px) {
+  .navbar-nav{
+      text-align: center;
+  }
+  .navbar-nav a{
+  
+    font-size: 15px;
+    font-weight: 500px;
+    color:#5D8AA8;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Carousell */
+.carousel-item{
+  height: 100vh;
+  min-height: 300px;
+}
+.carousel-caption{
+  bottom: 220px;
+  z-index: 2;
+}
+.carousel-caption h5{
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+
+.carousel-inner::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.7);
+  z-index: 1;
+}
+.w-100{
+  height: 100vh;
+  width: 100vh;
+}
+
+/*.............Deals.................. */
+
+.container-deals {
   display: flex;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+  gap: 15px;
+  /* flex-direction: row; */
+  margin: 20px;
+}
+
+.deals-card{
+  height: 300px;
+  width: 200px;
+  margin-right: 5px;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  border-radius: 20px;
+  background-color: white;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+  padding: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.deals-card > img {
+  width: 80%;
+  height: 70%;
+  align-self: center;
+  border-radius: 5px;
+  object-fit: cover;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.title {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.deals-list {
+  overflow-x: scroll;
+  display: flex;
+  scroll-snap-type: x mandatory;
+}
+
+.main-title{
+  padding: 10px 30%;
+  display: flex;
+}
+
+.card-group {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.card {
+  max-width: 40%;
+  height: auto;
+}
+.p-2 {
+  margin-top: 1rem;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+
+}
+/* Offer */ 
+.offer {
+  padding-top: 6em ;
+  background-color: white;
+}
+@media screen and (min-width: 992px) {
+  .section-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    gap: 3rem;
+    width: 95vw;
   }
-  to {
-    transform: rotate(360deg);
+  .gift-img {
+    margin-bottom: 0;
   }
+}
+.gift-info p {
+  margin: 2rem 0;
+}
+
+/* ------------------countdown Timer********************** */
+.deadline {
+  display: flex;
+}
+.deadline-format {
+  background: hsl(209, 61%, 16%);
+  color: #fff;
+  margin-right: 1rem;
+  width: 5rem;
+  height: 5rem;
+  display: grid;
+  place-items: center;
+  text-align: center;
+
+}
+.deadline-format span {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.85rem;
+}
+.deadline h4:not(.expired) {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+  letter-spacing: var(--spacing);
 }
