@@ -10,7 +10,7 @@ export default function Navbar () {
     return (
       <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
       <div className="container">
-        <a className="navbar-brand" href="#"><span className="className text-warning">Cons</span>Traction</a>
+        <a className="navbar-brand" href="#"><span className="className text-warning">Alpha</span>Sets</a>
         <button className="navbar-toggler" type="button" onClick={toggleButton} data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon" ></span>
         </button>
@@ -20,21 +20,14 @@ export default function Navbar () {
               <a className="nav-link" href="#home">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#about">About</a>
+              <a className="nav-link" href="#deals">Help</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#services">Services</a>
+              <a className="nav-link" href="#earpods">About us</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#portfolio">Portfolio</a>
+              <a className="nav-link" href="#earphones">Contact Us</a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#team">Team</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#contact">Contact</a>
-            </li>
-            
           </ul>
         </div>
       </div>

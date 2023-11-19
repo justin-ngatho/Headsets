@@ -1,6 +1,6 @@
 export default function Earphones (props) {
     return (
-        <div>
+        <div className="earphones">
              <div className="container-deals">
             <div className="deals-card">
                 <img src={props.earphones.image} alt="headpones"/>

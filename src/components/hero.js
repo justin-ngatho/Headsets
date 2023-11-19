@@ -7,17 +7,17 @@ export default function Hero ()
   const carouselData = [
     {
       id: 1,
-      imageUrl: '/images/hero5.jpg',
+      imageUrl: "./images/hero5.jpg",
       caption: 'Image 1',
     },
     {
       id: 2,
-      imageUrl: '/images/hero2.jpg',
+      imageUrl: './images/hero2.jpg',
       caption: 'Image 2',
     },
     {
       id: 3,
-      imageUrl: '/images/hero4.jpg',
+      imageUrl: './images/hero4.jpg',
       caption: 'Image 3',
     },
   ];

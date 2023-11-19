@@ -43,12 +43,13 @@ body{
 }
 
 /* Carousell */
+
 .carousel-item{
   height: 100vh;
   min-height: 300px;
 }
 .carousel-caption{
-  bottom: 220px;
+  bottom: 40%;
   z-index: 2;
 }
 .carousel-caption h5{
@@ -72,6 +73,8 @@ body{
   height: 100vh;
   width: 100vh;
 }
+
+
 
 /*.............Deals.................. */
 
@@ -128,7 +131,7 @@ body{
   padding-right: 10%;
 }
 .card {
-  max-width: 40%;
+  max-width: 100%;
   height: auto;
 }
 .p-2 {

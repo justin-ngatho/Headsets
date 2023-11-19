@@ -79,7 +79,7 @@ export default function Offer () {
         <div className="offer">
       <section className="section-center">
         <article className="gift-img">
-          <img src="/images/headphones6.jpg" alt="headphones" />
+          <img src="./images/headphones6.jpg" alt="headphones" />
         </article>
         <article className="gift-info">
           <h3>Black & Red Headphones giveaway!!</h3>
