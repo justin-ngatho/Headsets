@@ -4,7 +4,7 @@ export default function  TopDeals (props) {
    
     
     return (
-        <div>
+        <div className="top">
              <div className="container-deals">
             <div className="deals-card">
                 <img src={props.reviews.image} alt="headpones"/>

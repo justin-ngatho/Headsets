@@ -3,7 +3,7 @@ export default function Pods(props) {
 
     return (
 
-        <div>
+        <div className="earpods">
              <div className="container-deals">
             <div className="deals-card">
                 <img src={props.pods.image} alt="headpones"/>

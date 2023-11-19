@@ -20,21 +20,17 @@ export default function Navbar () {
               <a className="nav-link" href="#home">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#about">About</a>
+              <a className="nav-link" href="#top">Top Deals</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#services">Services</a>
+              <a className="nav-link" href="#earpods">EarPods</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#portfolio">Portfolio</a>
+              <a className="nav-link" href="#earphones">Earphones</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#team">Team</a>
+              <a className="nav-link" href="#headphones">Headphones</a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#contact">Contact</a>
-            </li>
-            
           </ul>
         </div>
       </div>
