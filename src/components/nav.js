@@ -1,5 +1,8 @@
 
 import { useState } from "react";
+import '@fortawesome/fontawesome-free/css/all.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 export default function Navbar () {
 
     const [isOpen, setIsOpen] = useState(false);
@@ -17,7 +20,7 @@ export default function Navbar () {
         <div className={`collapse navbar-collapse ${isOpen ? 'show' : ''}`}>
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link" href="#home">Home</a>
+              <a className="nav-link" href= "">Home</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#deals">Help</a>
@@ -27,6 +30,9 @@ export default function Navbar () {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#earphones">Contact Us</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="" ><FontAwesomeIcon icon={faShoppingCart} size="2x" color="black"  /></a>
             </li>
           </ul>
         </div>
