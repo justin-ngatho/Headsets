@@ -41,9 +41,13 @@ export default function  TopDeals (props) {
                 <img src= {props.reviews.image} alt="headpones" className="modal-img"/>
                 </div>            
                 <div className="modal-content">
+                <h4 >{props.reviews.title}</h4>
+                <h5 >{props.reviews.price}</h5>
+                <p >{props.reviews.items}</p>    
                 <p>{props.reviews.description}</p>
-                <button onClick={closeModal} className="close-btn">Close</button>
+                <button onClick={closeModal} className="close-btn">Close</button> 
                 </div>
+                <button className="buy-now-btn">Buy Now</button> 
                 
             </div>
                     
