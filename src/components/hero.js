@@ -46,8 +46,8 @@ export default function Hero ()
             <img src={slide.imageUrl} className="d-block w-100" alt={slide.caption} />
             </div>
             
-            <div className="carousel-caption d-none d-md-block">
-              <h5>{slide.caption}</h5>
+            <div className="carousel-caption">
+              <h2>{slide.caption}</h2>
             </div>
           </div>
         ))}

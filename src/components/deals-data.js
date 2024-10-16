@@ -4,7 +4,7 @@ export default [
         id:1,
         image:"./images/earbuds3.jpg",
         title: "Ear Buds",
-        price:2800,
+        price:'Ksh 2800/=',
         items: 83,
         description: "Rutters Plate Fleet boom chandler Brethren of the Coast handsomely lookout marooned brigantine"
     },
@@ -12,7 +12,7 @@ export default [
         id:2,
         image:"./images/headphones.jpg",
         title: "Black Headphones",
-        price:3800,
+        price:'Ksh 3800/=',
         items: 3,
         description: "Rutters Plate Fleet boom chandler Brethren of the Coast handsomely lookout marooned brigantine"
     },
@@ -20,7 +20,7 @@ export default [
         id:3,
         image:"./images/earphones7.jpg",
         title: "Pink Cool Headphones",
-        price:2800,
+        price:'Ksh 2800/=',
         items: 69,
         description: "Rutters Plate Fleet boom chandler Brethren of the Coast handsomely lookout marooned brigantine"
     },
@@ -28,7 +28,7 @@ export default [
         id:4,
         image:"./images/earphones6.jpg",
         title: "White Earphones",
-        price:1800,
+        price:'Ksh 1800/=',
         items: 86,
         description: "Rutters Plate Fleet boom chandler Brethren of the Coast handsomely lookout marooned brigantine"
     }
@@ -37,7 +37,7 @@ export default [
         id:5,
         image:"./images/earphones6.jpg",
         title: "White Earphones",
-        price:1800,
+        price:'Ksh 1800/=',
         items: 86,
         description: "Rutters Plate Fleet boom chandler Brethren of the Coast handsomely lookout marooned brigantine"
     },
@@ -45,7 +45,7 @@ export default [
         id:6,
         image:"./images/earphones6.jpg",
         title: "White Earphones",
-        price:1800,
+        price:'Ksh 1800 /=',
         items: 86,
         description: "Rutters Plate Fleet boom chandler Brethren of the Coast handsomely lookout marooned brigantine"
     },
@@ -53,7 +53,7 @@ export default [
         id:7,
         image:"./images/earphones6.jpg",
         title: "White Earphones",
-        price:1800,
+        price:'Ksh 1800 /=',
         items: 86,
         description: "Rutters Plate Fleet boom chandler Brethren of the Coast handsomely lookout marooned brigantine"
     }
